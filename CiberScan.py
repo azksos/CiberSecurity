@@ -44,7 +44,7 @@ class App(ctk.CTk):
         self.textbox.delete("0.0", "end")
         self.progress_bar.set(0)
         
-        # Lista de portas (mesmas do teste anterior + algumas extras)
+        # Lista de portas 
         ports = [21, 22, 23, 25, 53, 80, 110, 139, 443, 445, 3306, 3389, 8080]
         total_ports = len(ports)
 
